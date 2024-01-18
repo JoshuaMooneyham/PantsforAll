@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 
 * { 
     margin: 0;
@@ -46,6 +47,7 @@ header {
     justify-content: center;
     width: 100%;
     height: 700px;
+    flex-wrap: wrap;
 }
 
 .footer-container {
@@ -103,18 +105,45 @@ header {
     padding: 1em;
 }
 
-.redblock-section {
+.blueblock-section {
     display: flex;
     height: 500px;
     background-color: rgb(36, 38, 62);
     width: 100%;
+    flex-direction: column;
 }
+
+.autumn-header {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Oswald;
+    background-color: #00000061;
+    padding: 5px;
+}
+
+.autumn-quote {
+    text-align: center;
+    width: 60%;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.q {
+    padding: .5em;
+}
+
+.p1, .p2 {
+    font-weight: bolder;
+}
+
 .autumn-pants {
     display: flex;
     width: 100%;
     height: 100%;
     color: rgb(206, 206, 206);
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-left: -3em;
     align-items: center;
 }
 
@@ -122,7 +151,6 @@ header {
     display: inherit;
     width: 350px;
     align-self: center;
-    float: left;
     border-radius: 50%;
 }
 
