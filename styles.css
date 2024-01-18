@@ -4,7 +4,6 @@
 * { 
     margin: 0;
     /* outline: 0.5px red dashed; */
-    box-sizing: border-box;
 }
 
 html {
@@ -138,7 +137,7 @@ header {
 
 .btn-text img {
     display: flex;
-    width: 300px;
+    width: 200px;
 }
 
 .btn {
@@ -157,7 +156,7 @@ header {
     background-color: rgb(255, 32, 118);
     color: whitesmoke;
     font-size: 2em;
-    border-radius: 6%;
+    border-radius: 10%;
 }
 
 .btn button:hover {
@@ -169,12 +168,40 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: rgb(199, 199, 199);
 }
 
-.blocktext {
+.mission {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
     text-align: center;
-    padding: 1em;
+    justify-content: center;
+}
+
+.mission-header {
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    font-family: Oswald;
+    margin-top: -1%;
+}
+
+.missiontext {
+    display: flex;
+    height: 75%;
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.missiontext p{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .blueblock-section {
