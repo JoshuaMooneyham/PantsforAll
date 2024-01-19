@@ -133,6 +133,8 @@ header {
     font-size: 1.4em;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(110, 110, 110);
+    text-align: left;
+    padding-left: 1.4em;
 }
 
 .btn-text img {
